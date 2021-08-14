@@ -11,7 +11,7 @@ import {
   runPrettier,
 } from './npmUtils';
 import { cd } from 'shelljs';
-import { runCommand } from './shellHelpers';
+import { runCommand } from './shellUtils';
 import { copyConfigFiles } from './fileUtils';
 
 const program = new Command();

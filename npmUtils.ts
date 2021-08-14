@@ -1,7 +1,7 @@
 #!usr/bin/env ts-node
 
 import { log } from './logger';
-import { runCommand, runInstallCommand } from './shellHelpers';
+import { runCommand, runInstallCommand } from './shellUtils';
 
 export const createProject = (name: string) => {
   log('Creating React Native project');
@@ -34,5 +34,3 @@ export const installRedux = () => {
 export const runPrettier = () => {
   runCommand('npx prettier --write .');
 };
-
-export const x = {};
