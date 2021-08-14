@@ -1,6 +1,6 @@
 {
   "name": "react-native-starter-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": {
     "rn-starter": "./dist/index.js"
   },
