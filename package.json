@@ -22,7 +22,7 @@
     "start": "ts-node ./index.ts",
     "test": "echo \"Error: no test specified\"",
     "lint": "eslint . --ext .ts",
-    "tsc": "tsc",
+    "tsc": "tsc --noEmit true",
     "build": "tsc --noEmit false --outDir dist"
   },
   "repository": {
