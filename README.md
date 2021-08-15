@@ -7,4 +7,12 @@ Install the package globally by running
 
 `npm i -g react-native-starter-cli`
 
-That's it! Then navigate to the directory where you want to create the project and run `rn-starter`
+That's it! Then run `rn-starter` on the folder where you want the project to reside
+
+## Maintainers
+
+- [Roberto Tatasciore](https://github.com/phanghos)
+
+## License
+
+[MIT](https://github.com/phanghos/react-native-starter-cli/blob/main/LICENSE)
